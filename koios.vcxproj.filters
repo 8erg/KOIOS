@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Extraction">
+      <UniqueIdentifier>{3b9ec1e1-5fe1-4ace-a380-9a1967dd1bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Harvesting">
+      <UniqueIdentifier>{be01b298-f055-4803-b14a-8f53575d0047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{2ff663a1-7fc0-4443-807e-6f3ba5445261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extraction">
+      <UniqueIdentifier>{ef393dcb-f17b-427e-8814-4bea5c6b0e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Harvesting">
+      <UniqueIdentifier>{01ffa094-f759-4271-9f35-b031e70380b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{e00661ef-b589-4906-aa12-a92343d770ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lsass_Dumper.h">
+      <Filter>Header Files\Harvesting</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypervisor_Detector.h">
+      <Filter>Header Files\Harvesting</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle_Process.c">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Lsass_Dumper.c">
+      <Filter>Source Files\Harvesting</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypervisor_Detector.c">
+      <Filter>Source Files\Harvesting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Custom_Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle_Process.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
