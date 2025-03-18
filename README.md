@@ -1,55 +1,37 @@
 # KOIOS
 
-## Technologies utilisées
+## Tool Used
 
-- C/C++
-- Powershell
-- Assembly
++ Visual Studio
 
-## Phase d'injection
+## Brainstorming
 
-> [!Info] > *Will inject a part of the code that will download the rest when executing it*
+### Injection Phase
 
-- Macro excel
-- Vbscript
-- Pdf
-- Image/Canva
+#### WinRAR - First Method
 
-
-## Phase Élevation privilège via CreateProcessUserAsA
++ Get an image
++ Download Winrar
++ Convert image .ico
++ Select both image and the executable and click `Add to archive`
 
 
-## Phase d'exéction
+### Execution Phase
 
-- Create Process and inject shellcode that we created in assembly
-	- Ntdll
-	- DllInjector
-	- PE with all in it
++ Create Process and inject shellcode that we created in assembly
+	+ Ntdll
+	+ DllInjector
+  	+ PE with all in it
 
-## Features
+### Features
 
-- *Module #1 - Harvesting*
-	- Cookies browser
-	- Details of hardware
-	- Wi-Fi credentials
-	- users details on the computer
-	- details on av
-	- list of software installed
-	- list of security patch
-	- firewall rules
-	- Get Geolocation
-	- Dump Lsass
-- *Module #2 - *
-	- Keyboard
-		- Disable/Enable Keyboard
-		- Modify key
-	- Screenshot
-	- Mouse
-		- Disable/Enable mouse
-- *Module #3 - Extraction*
-	- 
-
-
-## Things to watch out for
-
-- Memory leak
++ Cookies browser
++ Details of hardware
++ Wi-Fi credentials
++ users details on the computer
++ details on av
++ list of software installed
++ list of security patch
++ firewall rules
++ Get Geolocation
++ Dump Lsass
