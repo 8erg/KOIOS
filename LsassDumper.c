@@ -1,4 +1,4 @@
-#include "Lsass_Dumper.h"
+#include "LsassDumper.h"
 
 //TODO Might change the access on the file
 void Dump(DWORD procId)

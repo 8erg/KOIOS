@@ -1,6 +1,6 @@
-#include "Lsass_Dumper.h"
-#include "Handle_Process.h"
-#include "Hypervisor_Detector.h"
+#include "LsassDumper.h"
+#include "HandleProcess.h"
+#include "HypervisorDetector.h"
 
 /*
  *This test will give us an idea on how we should do our menu

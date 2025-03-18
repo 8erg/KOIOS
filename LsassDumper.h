@@ -1,7 +1,7 @@
 #ifndef LSASS_DUMPER_H
 #define LSASS_DUMPER_H
 
-#include "Custom_Log.h"
+#include "CustomLog.h"
 #include <Windows.h>
 #include <DbgHelp.h>
 

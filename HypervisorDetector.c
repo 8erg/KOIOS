@@ -1,4 +1,4 @@
-#include "Hypervisor_Detector.h"
+#include "HypervisorDetector.h"
 
 /*
 * This will probably get flagged

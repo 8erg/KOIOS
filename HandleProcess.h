@@ -1,7 +1,7 @@
 #ifndef HANDLE_PROCESS_H
 #define HANDLE_PROCESS_H
 
-#include "Custom_Log.h"
+#include "CustomLog.h"
 #include <Windows.h>
 #include <TlHelp32.h>
 #include <sddl.h>
