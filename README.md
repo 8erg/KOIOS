@@ -2,6 +2,9 @@
 
 ## Tool Used
 
++ C
++ PeBear
++ IDA
 + Visual Studio
 
 ## Brainstorming
